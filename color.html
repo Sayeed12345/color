@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title> roll no</title>
+   </style>
+</head>
+<body>
+   <script>
+      var a= [1,2,3,4,5]
+      document.write ("<ul>");
+      
+      for (var b=0 ; b<=3; b++){
+         document.write ( a[b]+ "<br>");
+      }
+         
+         //for (var a= [1,2,3,4,5]){
+            for (var b=0; b<=3; b++){
+           document.write ("<li>"+ a[b]+"</li>");
+           document.write ("</ul>");
+         }
+         //document.write ("<br> ");
+      </script>
+      <body>
+   <div onclick="changeColor(this)" style="background-color: yellow;">
+      Tap me to change my color!
+   </div>
+
+   <script>
+      function changeColor(element) {
+         var currentColor = element.style.backgroundColor;
+         if(currentColor == "red") {
+            element.style.backgroundColor = "green";
+         } else {
+            element.style.backgroundColor = "red"; 
+         }
+      }
+   </script>
+</body>
+</html>
